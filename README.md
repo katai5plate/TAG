@@ -14,6 +14,7 @@
 ```html
 <script type="text/javascript" src="https://cdn.rawgit.com/katai5plate/TAG/master/TAG.js"></script>
 <script type="text/javascript">
+    const jsName = "TAG.js";
     TAG("html",[
         TAG("head",[
             TAG("title", ["Description of "+jsName])
