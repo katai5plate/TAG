@@ -11,6 +11,7 @@
 </script>
 ```
 #### Example
+Preview is [HERE](https://katai5plate.github.io/TAG/TAG.html).
 ```html
 <script type="text/javascript" src="https://cdn.rawgit.com/katai5plate/TAG/master/TAG.js"></script>
 <script type="text/javascript">
