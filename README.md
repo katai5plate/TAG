@@ -15,9 +15,18 @@
 <script type="text/javascript" src="https://cdn.rawgit.com/katai5plate/TAG/master/TAG.js"></script>
 <script type="text/javascript">
     const jsName = "TAG.js";
-    TAG("html",[
+    TAG("html",{
+        style:{
+            "background-color":"#696969",
+            "color":"white",
+        }
+    },[
         TAG("head",[
-            TAG("title", ["Description of "+jsName])
+            TAG("title", ["Description of "+jsName]),
+            TAG("meta", {
+                name: "author",
+                content: "had2apps",
+            }, [])
         ]),
         TAG("body",[
             TAG("h1",["Description of "+jsName]),

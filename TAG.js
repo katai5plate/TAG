@@ -68,7 +68,6 @@ TAG = (...args)=>{
                 t.appendChild(i);
                 break;
             case "string":
-                console.log(i);
                 i = q(i);
                 i = i   .replace(/(\n)/g,"<br>")
                         .replace(/(\[\*\*\])/g,"<b>")
